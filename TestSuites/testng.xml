@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite parallel="tests" name="Suite">-->
+<suite name="Suite">
+    <listeners>
+        <listener class-name="rahulshettyacademy.testcomponents.Listeners"></listener>
+    </listeners>
+    <test name="Submit Order Test">
+        <classes>
+            <class name="rahulshettyacademy.tests.SubmitOrderTest"/>
+        </classes>
+    </test>
+    <test name="Error validations Test">
+        <classes>
+           <class name="rahulshettyacademy.tests.ErrorValidationTest"/>
+        </classes>
+    </test>
+</suite>
