@@ -1,3 +1,4 @@
+/*Abstract code that is reused in multiple testcases*/
 package rahulshettyacademy.testcomponents;
 
 import com.fasterxml.jackson.core.type.TypeReference;
